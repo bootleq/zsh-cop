@@ -29,6 +29,19 @@ Go to directory contains `Gemfile` or `shadow-cljs.edn`
 Install
 =======
 
+Just soure `bin/cop.zsh` script.
+
+
+Examples for plugin manager:
+
+- zinit
+
+        zinit ice pick'bin/*.zsh'
+        zinit light 'bootleq/zsh-cop'
+
+- zplug
+
+        zplug 'bootleq/zsh-cop', use:'bin/*.zsh'
 
 
 
