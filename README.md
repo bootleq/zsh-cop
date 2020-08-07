@@ -18,12 +18,12 @@ Go to directory contains `Gemfile` or `shadow-cljs.edn`
 
 - Check changed `*.(rb|thor|builder|jbuilder|pryrc)` files, except for (git) Deleted, Renamed and Copied ones, and `db/schema.rb`.
 
-    cop
+        cop
 
 
 - Can provide more git-diff options to target files. e.g.,
 
-    cop master...HEAD
+        cop master...HEAD
 
 
 Install
