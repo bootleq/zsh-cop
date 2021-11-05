@@ -43,6 +43,9 @@ Or use plugin managers, for example:
 
         zplug 'bootleq/zsh-cop', use:'bin/*.zsh'
 
+- zimfw
+
+        zmodule bootleq/zsh-cop --source bin/cop.zsh
 
 
 [rubocop]: https://github.com/rubocop-hq/rubocop
