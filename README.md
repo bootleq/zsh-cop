@@ -34,10 +34,9 @@ Just source `bin/cop.zsh` script.
 
 Or use plugin managers, for example:
 
-- zinit
+- zcomet
 
-        zinit ice pick'bin/*.zsh'
-        zinit light 'bootleq/zsh-cop'
+        zcomet trigger cop bootleq/zsh-cop bin
 
 - zplug
 
@@ -46,6 +45,11 @@ Or use plugin managers, for example:
 - zimfw
 
         zmodule bootleq/zsh-cop --source bin/cop.zsh
+
+- zinit
+
+        zinit ice pick'bin/*.zsh'
+        zinit light 'bootleq/zsh-cop'
 
 
 [rubocop]: https://github.com/rubocop-hq/rubocop
